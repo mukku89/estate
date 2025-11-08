@@ -45,14 +45,39 @@
 }
 .navbar {padding:0.6rem 0}
 
-     .part1{
-height: 800px;
-width: 90%;
-margin: auto;
-background-image: url(https://humaniz.io/wp-content/uploads/2025/04/real-estate-team-leadership.png);
-font-weight: 400px; 
-
+.part1 {
+  width: 90%;
+  margin: auto;
+  background-image: url('https://humaniz.io/wp-content/uploads/2025/04/real-estate-team-leadership.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  height: 80vh; /* Responsive height relative to viewport */
+  border-radius: 10px; /* optional: for a modern look */
 }
+
+/* Adjust height for smaller devices */
+@media (max-width: 992px) {
+  .part1 {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .part1 {
+    height: 50vh;
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .part1 {
+    height: 40vh;
+    width: 100%;
+  }
+}
+
   </style>
 </head>
 <body>
