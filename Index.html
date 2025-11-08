@@ -1,312 +1,361 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>home</title>
-    <style>
-       body {
-      padding-top: 120px;
-      padding-top: 120px;
-      font-family: Arial, sans-serif;
-    }
-    .navbar-brand img {
-      max-height: 80px;
-    }
-    #main {
-      color: black;
-      font-weight: 500;
-    }
-    
-    .part{
-          height: 900px;
-          width: 100%;
-          background-image: url(https://static.wixstatic.com/media/c837a6_991d1c2bddf447e399b6a73d4e0281a6~mv2.jpg/v1/fill/w_1891,h_1100,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_991d1c2bddf447e399b6a73d4e0281a6~mv2.jpg);
-          display: block;
-        color: #20303c;
-        font-weight: 400px; 
-        padding: 50px; 
-        }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home — La Perla</title>     
 
-        #left{
-        margin-left: 100px;
-        color: black;
-       }
-        #right{
-        margin-left: 100px;
-        color: darkblue;
-        
-       }
-       #button{
-        margin-left: 100px;
-        background-color:darkblue;
-        font-size: 30px;
-        border-radius: 30px;
-        border: solid ;
-        font-weight: 500;
-        
-       }
-       #button:hover{
-        background-color: white;
-        color: darkblue;
-       }
-      .client,  .main5, .contact-part {
-      padding: 100px;
-    }
-    #left, #right{
-      text-align: left;
-    }
-    #button {
-      border-radius: 25px;
-      padding: 10px 20px;
-      font-weight: bold;
-      background-color:darkblue;
-      color: white;
-      border: none;
-    }
-     #img3, #img4 {
-      width: 100%;
-      height: 700px;
-      margin-bottom: 15px;
-    }
-    
-    @media (min-width: 768px) {
-      .client, .main5 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .part3, .part5, .main4, .part4 {
-        width: 48%;
-      }
-    }
-    </style>
-    
-    <!--<link  rel="stylesheet" href="style.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <!-- NAVBAR -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <img src="https://img.freepik.com/premium-vector/real-estate-business-logo-template-building-property-development-construction-logo-vector_607588-10319.jpg"
+              alt="Logo" class="brand-logo" />
+            <span class="brand-title">LA PERLA</span>
+          </a>
 
-         <div class="container-fluid">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://img.freepik.com/premium-vector/real-estate-business-logo-template-building-property-development-construction-logo-vector_607588-10319.jpg" alt="Logo" width="100" height="100">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" id="main" href="Index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="main" href="second.html">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="main" href="#" role="button" data-bs-toggle="dropdown">
-              Properties
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="four.html">All</a></li>
-              <li><a class="dropdown-item" href="fiv.html">Buy</a></li>
-              <li><a class="dropdown-item" href="six.html">Rent</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="main" href="seven.html">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="main" href="third.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-
-
-<div class="main">
-<div class="part"><br><br>
-<h1 id="left">Meet me at</h1><br><h1 id="right">LA PERLA</h1><br><h1 id="left">52 Brook St.</h1>
-<br> <h4 id="left">Introducing a new living experiencing at the<br> best location in town</h4>
-<br><button id="button">See Video</button></div> </div>
-
-<div class="container-fluid " >
-<div class="row" id="row2" style=" background-color:darkblue; display: flex; font-size: 25px; color: white; padding-top: 100px;padding: 50px; "><br><br><br><h1 style="font-size: 60px;">Gallery</h1><br><br>
-<p class="mb-5"><br>Explore Our Projects<br><br>Immerse yourself in the beauty of our completed projects. Each image tells a story of 
-  meticulous planning,<br> creativity, and a passion for quality real estate development.
-</p><br><br><br><br><br><br><br><br><br>  
-<div class="col-md-12 col-lg-6 col-sm-3 bg-Success" >
-<img src="https://static.wixstatic.com/media/88aac0_5ac565092f8140709a06ab3581bfdecf~mv2.png"
-style="width: 705px; height: 400px;">
-</div>
-<div class="col-md-12 col-lg-6 col-sm-3 bg-Success" style=" font-size: 20px; padding: 50px;">
-  <h3>Luxury Apartments</h3><br><br>
-Luxury redefined with our premium apartments<br> designed for comfort and elegance.<br><br>
- Experience luxury living at its finest within our<br> carefully crafted residential spaces.
-</div>
-<div class="col-md-12 col-lg-6 col-sm-3 bg-Success" style="font-size: 20px; padding: 50px;">
-<h3>Retail Spaces</h3><br><br>
-Our retail spaces blend functionality and elegance,<br>offering modern layouts, high foot traffic, and easy<br> access for thriving businesses across industries.
-<br><br>Each location combines style and function, creating<br> welcoming spaces that boost customer experience and<br> support business growth.
-</div>
-<div class="col-md-12 col-lg-6 col-sm-3 bg-Success">
-<img src="https://static.wixstatic.com/media/88aac0_7df796dbecdd419489b1eff36d6a3a4f~mv2.png"
-style="width: 700px; height: 410px;">
-</div >
-<div class="col-md-12 col-sm-3 col-lg-6 bg-Success">
-<img src="https://static.wixstatic.com/media/88aac0_016907c1f15140e3bd336d79166bb3ec~mv2.png"
-style="width: 705px; height: 400px;">
-</div>
-<div class="col-md-12 col-lg-6 col-sm-3 bg-Success" style="font-size: 20px; padding: 50px;">
-<h3>Public Park</h3><br>
-<br> Enjoy the tranquility and beauty of our public park, a<br> green oasis in the heart of urban living.<br><br>
- Our public park offers a serene escape for the<br> community, blending nature with modern amenities<br> for all to enjoy.</div>
-</div>
-</div>
-
-
-<div class="container-fluid text-center  py-5 " style="font-weight: bold; font-size: 45px; background-color: whitesmoke;"><br><br>
-    <h2 class="fw-bold display-5 mb-5">Our Services Include</h2><br><br>
-  <div class="row align-items-center g-4">
-    <div class="col-12 col-md-4">
-      <img src="https://static.wixstatic.com/media/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg/v1/fill/w_533,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg" class="img-fluid">
-    </div>
-    <div class=" col-12 col-md-4">
-     <img src="https://static.wixstatic.com/media/74f558_4ef3f401e4a2400a8979c42d1a7ba1a7~mv2_d_5760_3840_s_4_2.jpeg/v1/fill/w_526,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_4ef3f401e4a2400a8979c42d1a7ba1a7~mv2_d_5760_3840_s_4_2.jpeg" class="img-fluid">
-    </div>
-    <div class="col-12 col-md-4">
-     <img src="https://static.wixstatic.com/media/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg/v1/fill/w_526,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg" class="img-fluid">
-    </div>
-  </div><br><br>
-  <div class="mt-5">
-      <button id="button" class="btn btn-primary btn-lg">See All Services</button>
-    </div><br><br>
-</div>
-
-
-<div class="muk">
-  <img src="https://thumbs.dreamstime.com/b/luxury-white-kitchen-home-design-beautiful-estate-cabinets-modern-appliances-bright-spacious-elegant-cabinetry-state-350758075.jpg" class="img-fluid w-100" style="max-height: 600px;" alt="Main Image">
-</div>
-
-<div class="muk1 text-center ">
-<div class="row" id="row2" style="padding-top:130px;  color: white; background-color:darkblue"  >
-<h1>Our Process</h1><br><br>
-<p class="mb-5"><br>I'm a paragraph. Click here to add your own text and edit me. It’s easy.<br>
-Just click “Edit Text” or double click me to add your own content and make changes to the font.</p> <br><br><br><br><br><br><br><hr>  
-<div class="col-md-6 col-lg-3 bg-Success" >
-<img src="https://static.wixstatic.com/media/74f558_b261ab6879d14b0bbc9800ec41ba91fd~mv2_d_6208_4258_s_4_2.jpeg/v1/fill/w_473,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_b261ab6879d14b0bbc9800ec41ba91fd~mv2_d_6208_4258_s_4_2.jpeg"
-style="width: 380px; height: 400px;">
-</div>
-<div class="col-md-6 col-lg-3 bg-Success" style="padding-top: 70px; font-size: 20px;">
-Preconstruction<br>Design<br><br>I'm a paragraph. Click here to<br>add your own text and edit<br> me. Let your users get to<br> know you.
-</div>
-<div class="col-md-6 col-lg-3 bg-Success">
-<img src="https://static.wixstatic.com/media/74f558_0e46dc42786945daad2d2535524461c3~mv2_d_6048_4032_s_4_2.jpeg/v1/fill/w_473,h_525,fp_0.43_0.30,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_0e46dc42786945daad2d2535524461c3~mv2_d_6048_4032_s_4_2.jpeg"
-style="width: 380px; height: 400px;">
-</div>
-<div class="col-md-6 col-lg-3 bg-Success" style="padding-top: 70px;font-size: 20px;">
-Design &<br> Construction<br><br>I'm a paragraph. Click here to<br>add your own text and edit<br> me. Let your users get to<br> know you.
-</div>
-<div class="col-md-6 col-lg-3 bg-Success"style="padding-top: 70px;font-size: 20px;" >
-On-Site<br>Consultations<br><br>I'm a paragraph. Click here to<br>add your own text and edit<br> me. Let your users get to<br> know you.
-</div>
-<div class="col-md-6 col-lg-3 bg-Success">
-<img src="https://static.wixstatic.com/media/74f558_ac023650dfaf4026972886b8c33e06e9~mv2_d_4000_2983_s_4_2.jpg/v1/fill/w_473,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_ac023650dfaf4026972886b8c33e06e9~mv2_d_4000_2983_s_4_2.jpg"
-style="width: 380px; height: 400px;">
-</div>
-<div class="col-md-6 col-lg-3 bg-Success" style="padding-top: 70px;font-size: 20px;">
-The Finishing<br>Touches<br><br>I'm a paragraph. Click here to<br>add your own text and edit<br> me. Let your users get to<br> know you.
-</div>
-<div class="col-md-6 col-lg-3 bg-Success">
-<img src="https://static.wixstatic.com/media/74f558_d26f60b4ce744d9c9e82426a09cd84b5~mv2_d_5616_3744_s_4_2.jpeg/v1/fill/w_473,h_525,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_d26f60b4ce744d9c9e82426a09cd84b5~mv2_d_5616_3744_s_4_2.jpeg"
-style="width: 380px; height: 400px;">
-</div>
-</div>
-</div>
-
-
-
-<div class="client">
-<div class="part3">
-<img id="img3" src="https://static.wixstatic.com/media/c837a6_37fca01674af444ead35d4883c329921~mv2.jpg/v1/fill/w_576,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/yuvalna_portrait_photography_mid_shot_of_a_woman_that_is_50_yea_9586c9a1-5465-4fe3-b3b9-0c.jpg">
-</div>
-<div class="main4">
-<h5>The Architect</h5>
-<h1>Raya Hayek</h1>
-<p>Award winning architect and designer proudly<br> presents her first residential project in town</p>
-<p>I'm a paragraph. Click here to add your own text and edit me.<br>
-It’s easy. Just click “Edit Text” or double click me to add your<br>
-own content and make changes to the font. I’m a great place<br>
-for you to tell a story and let your users know a little more<br> about you.</p>  
-</div>
-</div>
-<div class="main5">
-<div class="part4">
-<h5>The Developer</h5>
-<h1>Mogendor Group</h1>
-<p>With over 155 successful projects since 1989, Mogendor<br>launches yet another architectural gem</p>
-<p>I'm a paragraph. Click here to add your own text and edit me.<br>
-It’s easy. Just click “Edit Text” or double click me to add your<br>
-own content and make changes to the font. I’m a great place<br>
-for you to tell a story and let your users know a little more<br> about you.</p>  
-</div>
-<div class="part5">
-<img id="img4" src="https://static.wixstatic.com/media/c837a6_e8a82e4a4e6b43f0b7e3fea5f90ee6d7~mv2.jpg/v1/crop/x_105,y_0,w_1711,h_1920/fill/w_576,h_688,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/yuvalna_photograph_of_FULL_three_high_buildings_that_is_part_of_b5145927-1d2c-4fc8-9fd9-6c.jpg">
-</div>
-</div>     
-</div>
-
-
-<div class="col-12 text-center"  style="background-color:darkblue;  color:white ; font-size: 25px; padding-top: 50px;">
-Get in Touch<Br>
-Please submit your contact information and one of our<br>
-sales associates will be in touch with you shortly
-</div>
-
-<!-- CONTACT FORM -->
-<div class="contact-part py-5" style="background-color: darkblue;">
-  <div class="container">
-    <form>
-      <div class="row g-4 text-white fw-bold">
-        <div class="col-md-4">
-          <label for="firstName" class="form-label">First Name*</label>
-          <input type="text" class="form-control" id="firstName" required>
-        </div>
-        <div class="col-md-4">
-          <label for="secondName" class="form-label">Second Name*</label>
-          <input type="text" class="form-control" id="secondName" required>
-        </div>
-        <div class="col-md-4">
-          <label for="email" class="form-label">Email*</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="col-md-4">
-          <label for="residence" class="form-label">Residence Type*</label>
-          <input type="text" class="form-control" id="residence" required>
-        </div>
-        <div class="col-md-4">
-          <label for="phone" class="form-label">Phone*</label>
-          <input type="tel" class="form-control" id="phone" required>
-        </div>
-        <div class="col-md-4">
-          <label for="price" class="form-label">Price Range*</label>
-          <input type="text" class="form-control" id="price" required>
-        </div>
-        <div class="col-12 text-center mt-4">
-          <button type="submit" class="btn px-5 py-2" style="background-color:white; color: darkblue; border-radius: 50px; font-weight: bold;">
-            Submit
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+            aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+            <ul class="navbar-nav align-items-lg-center gap-2">
+              <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="second.html">About</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Properties</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="four.html">All</a></li>
+                  <li><a class="dropdown-item" href="fiv.html">Buy</a></li>
+                  <li><a class="dropdown-item" href="six.html">Rent</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="seven.html">Team</a></li>
+              <li class="nav-item"><a class="nav-link" href="third.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </form>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section class="hero d-flex align-items-center">
+        <div class="container">
+          <div class="hero-content row align-items-center">
+            <div class="col-lg-7 col-md-8">
+              <h6 class="overline">Meet me at</h6>
+              <h1 class="hero-title">LA PERLA</h1>
+              <p class="lead hero-sub">52 Brook St. — Introducing a new living experience at the best location in town.</p>
+              <div class="mt-4">
+                <!-- <a class="btn btn-primary btn-lg me-2" id="watchBtn" href="#" role="button">See Video</a>-->
+                <a class="btn btn-outline-light btn-lg" href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="py-5 gallery-section">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="display-6">Gallery</h2>
+            <p class="mx-auto text-muted max-700">Explore Our Projects — immerse yourself in the beauty of our completed
+              projects. Each image tells a story of planning, creativity and quality.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm overflow-hidden">
+                <img src="https://static.wixstatic.com/media/88aac0_5ac565092f8140709a06ab3581bfdecf~mv2.png"
+                  class="card-img-top img-fluid" alt="Luxury Apartments">
+                <div class="card-body">
+                  <h5>Luxury Apartments</h5>
+                  <p class="mb-0 text-muted">Premium apartments designed for comfort and elegance — luxury living at its finest.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm overflow-hidden">
+                <img src="https://static.wixstatic.com/media/88aac0_7df796dbecdd419489b1eff36d6a3a4f~mv2.png"
+                  class="card-img-top img-fluid" alt="Retail Spaces">
+                <div class="card-body">
+                  <h5>Retail Spaces</h5>
+                  <p class="mb-0 text-muted">Modern retail layouts with high foot traffic and excellent accessibility for businesses.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm overflow-hidden">
+                <img src="https://static.wixstatic.com/media/88aac0_016907c1f15140e3bd336d79166bb3ec~mv2.png"
+                  class="card-img-top img-fluid" alt="Public Park">
+                <div class="card-body">
+                  <h5>Public Park</h5>
+                  <p class="mb-0 text-muted">A green oasis blending nature with modern amenities for the whole community.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card border-0 shadow-sm overflow-hidden">
+                <img src="https://static.wixstatic.com/media/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg"
+                  class="card-img-top img-fluid" alt="Services">
+                <div class="card-body">
+                  <h5>Our Services</h5>
+                  <p class="mb-0 text-muted">Design, construction, consultations and finishing touches — comprehensive services.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-4">
+            <a class="btn btn-outline-primary btn-lg" href="#">See All Services</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section class="process py-5 bg-light">
+        <div class="container">
+          <div class="text-center mb-4">
+            <h3>Our Process </h3>
+            <p class="text-muted">From pre-construction design to the finishing touches — we manage the entire journey.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3 text-center">
+              <img src="https://static.wixstatic.com/media/74f558_b261ab6879d14b0bbc9800ec41ba91fd~mv2_d_6208_4258_s_4_2.jpeg"
+                class="process img  img-fluid rounded mb-3" alt="Design">
+              <h6>Pre-construction</h6>
+              <p class="text-muted small">Design & planning before we break ground.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center">
+              <img src="https://static.wixstatic.com/media/74f558_0e46dc42786945daad2d2535524461c3~mv2_d_6048_4032_s_4_2.jpeg"
+                class="process img  img-fluid rounded mb-3" alt="Construction">
+              <h6>Design & Construction</h6>
+              <p class="text-muted small">End-to-end construction management.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center">
+              <img src="https://static.wixstatic.com/media/74f558_ac023650dfaf4026972886b8c33e06e9~mv2_d_4000_2983_s_4_2.jpg"
+                class="process img  img-fluid rounded mb-3" alt="On-Site">
+              <h6>On-site Consultations</h6>
+              <p class="text-muted small">Personalized consultations at the property.</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 text-center">
+              <img src="https://static.wixstatic.com/media/74f558_d26f60b4ce744d9c9e82426a09cd84b5~mv2_d_5616_3744_s_4_2.jpeg"
+                class="process img  img-fluid rounded mb-3" alt="Finishing">
+              <h6>Finishing Touches</h6>
+              <p class="text-muted small">Attention to detail for a polished handover.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM HIGHLIGHTS -->
+      <section class="team py-5">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <div class="rounded overflow-hidden shadow-sm">
+                <img id="img3" src="https://static.wixstatic.com/media/c837a6_37fca01674af444ead35d4883c329921~mv2.jpg"
+                  class="img-fluid" alt="The Architect">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h6 class="text-muted">The Architect</h6>
+              <h2>Raya Hayek</h2>
+              <p class="text-muted">Award-winning architect and designer presenting a signature residential project.</p>
+            </div>
+          </div>
+
+          <hr class="my-5" />
+
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+              <div class="rounded overflow-hidden shadow-sm">
+                <img id="img4" src="https://static.wixstatic.com/media/c837a6_e8a82e4a4e6b43f0b7e3fea5f90ee6d7~mv2.jpg"
+                  class="img-fluid" alt="The Developer">
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <h6 class="text-muted">The Developer</h6>
+              <h2>Mogendor Group</h2>
+              <p class="text-muted">With over 155 successful projects since 1989 — launching another architectural gem.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+
+<div class="container-fluid bg-light">
+  <div class="text-center mb-5 bg-light">
+            <h2 class="display-6">Gallery</h2>
+            <p class="mx-auto text-muted max-700">Explore Our Projects — immerse yourself in the beauty of our completed
+              projects. Each image tells a story of planning, creativity and quality.</p>
+          </div>
+  <div class="row" id="row2" style="font-size: 25px; padding: 50px;">
+
+    <!-- 1st Image -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+      <img src="https://static.wixstatic.com/media/88aac0_5ac565092f8140709a06ab3581bfdecf~mv2.png"
+        class="gallery-img" alt="">
+    </div>
+
+    <!-- 1st Text -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4" style="font-size: 20px;">
+      <h3>Luxury Apartments</h3><br>
+      Luxury redefined with our premium apartments designed for comfort and elegance.<br><br>
+      Experience luxury living at its finest within our carefully crafted residential spaces.
+    </div>
+
+    <!-- 2nd Text -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4" style="font-size: 20px;">
+      <h3>Retail Spaces</h3><br>
+      Our retail spaces blend functionality and elegance, offering modern layouts, high foot traffic, and easy access
+      for thriving businesses across industries.<br><br>
+      Each location combines style and function, creating welcoming spaces that boost customer experience and support
+      business growth.
+    </div>
+
+    <!-- 2nd Image -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+      <img src="https://static.wixstatic.com/media/88aac0_7df796dbecdd419489b1eff36d6a3a4f~mv2.png"
+        class="gallery-img" alt="">
+    </div>
+
+    <!-- 3rd Image -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4">
+      <img src="https://static.wixstatic.com/media/88aac0_016907c1f15140e3bd336d79166bb3ec~mv2.png"
+        class="gallery-img" alt="">
+    </div>
+
+    <!-- 3rd Text -->
+    <div class="col-lg-6 col-md-12 col-sm-12 mb-4" style="font-size: 20px;">
+      <h3>Public Park</h3><br>
+      Enjoy the tranquility and beauty of our public park, a green oasis in the heart of urban living.<br><br>
+      Our public park offers a serene escape for the community, blending nature with modern amenities for all to enjoy.
+    </div>
+
   </div>
 </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-  
+
+
+
+<div class="container-fluid text-center py-5" style="background-color: whitesmoke;">
+  <h2 class="fw-bold display-5 mb-5">Our Services Include</h2>
+
+  <div class="row align-items-center g-4">
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="service-img">
+        <img src="https://static.wixstatic.com/media/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg/v1/fill/w_533,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_993f041afc4045c69c824d6022d78ca0~mv2_d_4000_2667_s_4_2.jpeg" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="service-img">
+        <img src="https://static.wixstatic.com/media/74f558_4ef3f401e4a2400a8979c42d1a7ba1a7~mv2_d_5760_3840_s_4_2.jpeg/v1/fill/w_526,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_4ef3f401e4a2400a8979c42d1a7ba1a7~mv2_d_5760_3840_s_4_2.jpeg" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="service-img">
+        <img src="https://static.wixstatic.com/media/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg/v1/fill/w_526,h_908,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/74f558_9b1cc2c7424d47bf83b890c15ed8127f~mv2_d_5625_3750_s_4_2.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5">
+    <button id="button" class="btn btn-primary btn-lg px-4">See All Services</button>
+  </div>
+</div>
+
+
+      <!-- CONTACT CTA -->
+      <section class="contact-cta text-center text-white py-5 bg-primary">
+        <div class="container">
+          <h3 class="mb-2">Get in Touch</h3>
+          <p class="mb-4">Submit your contact info and our sales associate will reach out shortly.</p>
+          <a class="btn btn-light btn-lg" href="#contact">Contact Form</a>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM -->
+      <section id="contact" class="py-5 bg-dark  text-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="card card-body bg-dark border-0">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label">First Name*</label>
+                      <input type="text" class="form-control" id="firstName" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Second Name*</label>
+                      <input type="text" class="form-control" id="secondName" required />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" id="email" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Phone*</label>
+                      <input type="tel" class="form-control" id="phone" required />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label">Residence Type*</label>
+                      <input type="text" class="form-control" id="residence" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Price Range*</label>
+                      <input type="text" class="form-control" id="price" required />
+                    </div>
+
+                    <div class="col-12 text-center mt-2">
+                      <button type="submit" class="btn btn-primary btn-lg px-5">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="py-4 text-center small text-muted">
+        <div class="container">© <span id="year"></span> LA PERLA — All rights reserved.</div>
+      </footer>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <!-- Small inline script for dynamic year -->
+    <script>
+      document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
   </body>
 </html>
