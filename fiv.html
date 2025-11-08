@@ -32,6 +32,27 @@
     .contact-form .form-control {
       margin-bottom: 15px;
     }
+    /* ---------- Navbar ---------- */
+.navbar-brand .brand-logo{
+  width:56px;
+  height:56px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.brand-title{
+  font-weight:700;
+  font-size:1rem;
+  color:var(--dark);
+}
+.navbar .nav-link{
+  color:var(--dark);
+  font-weight:500;
+}
+.navbar .nav-link:hover{
+  color:var(--primary);
+}
+.navbar {padding:0.6rem 0}
+
 
 .part1{
 height: 600px;
@@ -82,7 +103,7 @@ font-weight: 400px;
       
       <!-- Card 1 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark" >
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUKbcG4dF8eWWxZmwIIDKYUezpA7-4B-LfTw&s" class="card-img-top" alt="House">
           <div class="card-body">
             <a class="card-title" href="forteen.html" >Luxury Villa in Goa</a><br>
@@ -109,7 +130,7 @@ font-weight: 400px;
 
       <!-- Card 2 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark">
           <img src="https://flowphotosokc.com/wp-content/uploads/okc-real-estate-photography-home-hero-1-blur-1080x675.jpg" class="card-img-top" alt="House">
           <div class="card-body">
          <a class="card-title" href="fiveteen.html" >Luxury Villa in Goa</a><br>
@@ -136,7 +157,7 @@ font-weight: 400px;
 
       <!-- Card 3 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark">
           <img src="https://blog.milesbrand.com/hubfs/LuxuryRealEstateBranding.jpg" class="card-img-top" alt="House">
           <div class="card-body">
             <a class="card-title" href="sixteen.html" >Luxury Villa in Goa</a><br>
@@ -171,7 +192,7 @@ font-weight: 400px;
 
       <!-- Card 4 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9xxvx1TzMetOjYRpHYXYf_y9tbVyN17Wf2Q&s" class="card-img-top" alt="House">
           <div class="card-body">
             <a class="card-title" href="seventeen.html" >Luxury Villa in Goa</a><br>
@@ -198,7 +219,7 @@ font-weight: 400px;
 
       <!-- Card 5 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjn7mbWlHkzGfpy2lawCw1ugkHUo364wFJNg&s" class="card-img-top" alt="House">
           <div class="card-body">
           <a class="card-title" href="eighteen.html" >Luxury Villa in Goa</a><br>
@@ -225,7 +246,7 @@ font-weight: 400px;
 
       <!-- Card 6 -->
       <div class="col-md-4">
-        <div class="car">
+        <div class="car bg-dark">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZsG6gRl8exZc2irp07P6Pj5RKkvN1nosKSg&s" class="card-img-top" alt="House">
           <div class="card-body">
             <a class="card-title" href="ninteen.html" >Luxury Villa in Goa</a><br>
@@ -254,51 +275,60 @@ font-weight: 400px;
   </div>
 </section>
 
-<!-- CONTACT FORM -->
-<div class="col-12 text-center" style="background-color:darkblue; color: white; font-weight: bold; font-size: 25px; padding-top: 50px;">
-Get in Touch<Br>
-Please submit your contact information and one of our<br>
-sales associates will be in touch with you shortly
-</div>
 
-<!-- CONTACT FORM -->
-<div class="contact-part py-5" style="background-color: darkblue;">
-  <div class="container">
-    <form>
-      <div class="row g-4 text-white fw-bold">
-        <div class="col-md-4">
-          <label for="firstName" class="form-label">First Name*</label>
-          <input type="text" class="form-control" id="firstName" required>
+ <!-- CONTACT CTA -->
+      <section class="contact-cta text-center text-white py-5 bg-primary">
+        <div class="container">
+          <h3 class="mb-2">Get in Touch</h3>
+          <p class="mb-4">Submit your contact info and our sales associate will reach out shortly.</p>
+          <a class="btn btn-light btn-lg" href="#contact">Contact Form</a>
         </div>
-        <div class="col-md-4">
-          <label for="secondName" class="form-label">Second Name*</label>
-          <input type="text" class="form-control" id="secondName" required>
+      </section>
+<section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="card card-body bg-dark border-0">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label">First Name*</label>
+                      <input type="text" class="form-control" id="firstName" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Second Name*</label>
+                      <input type="text" class="form-control" id="secondName" required />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label">Email*</label>
+                      <input type="email" class="form-control" id="email" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Phone*</label>
+                      <input type="tel" class="form-control" id="phone" required />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label">Residence Type*</label>
+                      <input type="text" class="form-control" id="residence" required />
+                    </div>
+                    <div class="col-md-6">
+                      <label class="form-label">Price Range*</label>
+                      <input type="text" class="form-control" id="price" required />
+                    </div>
+
+                    <div class="col-12 text-center mt-2">
+                      <button type="submit" class="btn btn-primary btn-lg px-5">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <label for="email" class="form-label">Email*</label>
-          <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="col-md-4">
-          <label for="residence" class="form-label">Residence Type*</label>
-          <input type="text" class="form-control" id="residence" required>
-        </div>
-        <div class="col-md-4">
-          <label for="phone" class="form-label">Phone*</label>
-          <input type="tel" class="form-control" id="phone" required>
-        </div>
-        <div class="col-md-4">
-          <label for="price" class="form-label">Price Range*</label>
-          <input type="text" class="form-control" id="price" required>
-        </div>
-        <div class="col-12 text-center mt-4">
-          <button type="submit" class="btn px-5 py-2" style="background-color:white; color:darkblue; border-radius: 50px; font-weight: bold;">
-            Submit
-          </button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
+      </section>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
