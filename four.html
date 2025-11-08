@@ -35,12 +35,39 @@
       margin-bottom: 15px;
     }
 
-    .part1{
-height: 600px;
-width: 100%;
-background-image: url(https://watermark.lovepik.com/photo/40191/1084.jpg_wh1200.jpg)
- 
+    .part1 {
+  width: 90%;
+  margin: auto;
+  background-image: url('https://realtyna.com/wp-content/uploads/2020/09/Featured-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 400;
+  height: 80vh; /* Responsive height relative to viewport */
+  border-radius: 10px; /* optional: for a modern look */
 }
+
+/* Adjust height for smaller devices */
+@media (max-width: 992px) {
+  .part1 {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .part1 {
+    height: 50vh;
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .part1 {
+    height: 40vh;
+    width: 100%;
+  }
+}
+
 
 /* ---------- Navbar ---------- */
 .navbar-brand .brand-logo{
